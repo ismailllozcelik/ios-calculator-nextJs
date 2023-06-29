@@ -1,14 +1,17 @@
 import Head from 'next/head';
-import Calculator from '../components/Calculator/Calculator';
+import Calculator from '../components/calculator/calculator';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="h-screen w-screen  flex items-center justify-center bg-slate-600">
       <Head>
-        <title>Create Next App</title>
+        <title>Calculator</title>
       </Head>
-      <Calculator />
+
+      <div className="">
+        <Calculator />
+      </div>
     </div>
   );
 }
