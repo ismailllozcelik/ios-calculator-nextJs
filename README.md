@@ -20,7 +20,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Screen Shot
 
-
+![Örnek Resim](./calculator-ios.PNG)
 
 ## Learn More
 
